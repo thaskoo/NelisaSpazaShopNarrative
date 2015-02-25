@@ -1,10 +1,14 @@
 
 
 ###Nelisa wants to know what to order in bulk
-* Story 1: Nelisa wants to see the most popular product - & how do we know the answer is right?
-* Story 2: Nelisa wants to see the most popular category - Use a test framework to prove your function works*
-* Story 3: Nelisa wants to see the least popular product & category *always use a test framework!
-** Hint: You will need to capture the sales data in order to do these stories
+* Story 1: Nelisa wants to see the most popular product
+  * How do we know the answer is right?
+* Story 2: Nelisa wants to see the most popular category
+  * Use a test framework to prove your function works*
+* Story 3: Nelisa wants to see the least popular product & category 
+  * always use a test framework!
+ 
+Hint: You will need to capture the sales data in order to do these stories
 
 ### Nelisa wants to find out what is profitable
 * Story 4: Nelisa wants to see the earnings per category & product
@@ -25,7 +29,8 @@ Now that we know what we should be ordering, Xolani think it would be great to h
 
 * Story 11: Which supplier is supplying the most popular product.
 * Story 12: Which supplier is supplying the most profitable product.
-* (hint: you will need to add some information to your data)
+
+Hint: you will need to add some information to your data
 
 ### Nelisa wants to see her stock info wherever she is
 
