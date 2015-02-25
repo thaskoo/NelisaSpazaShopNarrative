@@ -1,4 +1,5 @@
 
+
 ###Nelisa wants to know what to order in bulk
 * Story 1: Nelisa wants to see the most popular product - & how do we know the answer is right?
 * Story 2: Nelisa wants to see the most popular category - Use a test framework to prove your function works*
@@ -19,7 +20,8 @@ Having seen this, he realises that he also needs to see what the average sales a
 
 Which days are the most profitable?
 
-Now that we know what we should be ordering, we think it would be great to have standard orders. Need to know which supplier we purchase each item from.
+### Xolani would like to have standard orders to simplify his admin
+Now that we know what we should be ordering, Xolani think it would be great to have standard orders. For this we need to know which supplier we purchase each item from.
 
 * Story 11: Which supplier is supplying the most popular product.
 * Story 12: Which supplier is supplying the most profitable product.
