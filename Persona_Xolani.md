@@ -1,5 +1,6 @@
 #Xolani 
 
+<img align="left" padding=10px src="./images/PersonaXolani.png">
 Works at Nelisa’s Cash Store
 
 He is Nelisa’s son and Ayanda’s father. A big soccer fan, sometimes plays on Saturdays.
