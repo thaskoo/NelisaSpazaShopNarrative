@@ -2,6 +2,8 @@
 
 <img align="left" padding=10px src="./images/PersonaNelisa.png">
 
+Owner of Nelisa's Cash Store
+
 Mother of Xolani and grandmother of Ayanda
 
 Lives in Khayelitsha, doesn’t have her own car but can use her brother’s bakkie when she needs to buy stock.
