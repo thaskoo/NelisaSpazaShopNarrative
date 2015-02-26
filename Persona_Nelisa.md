@@ -1,6 +1,6 @@
 #Nelisa 
 
-Owner of Nelisa’s Cash Store
+![Nelisa](./images/PersonaNelisa.png)Owner of Nelisa’s Cash Store
 
 Mother of Xolani and grandmother of Ayanda
 
