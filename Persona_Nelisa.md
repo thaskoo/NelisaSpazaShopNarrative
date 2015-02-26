@@ -1,6 +1,6 @@
 #Nelisa 
 
-![Nelisa](./images/PersonaNelisa.png)Owner of Nelisa’s Cash Store
+<img align="left" padding=10px src="./images/PersonaNelisa.png">
 
 Mother of Xolani and grandmother of Ayanda
 
@@ -13,3 +13,4 @@ At first she had to be at the shop all the time, and her son Xolani would watch 
 
 Nelisa started the shop just buying a few things in bulk, and selling them for a little bit more, and it grew from there. She sometimes remembers to keep the slips from her purchases, but doesn’t have many records. So far the shop has helped bring in extra income, but she’d like to be able to buy in bigger bulk to get better prices, but she is nervous to buy the wrong things and land up keeping stock for too long.
 
+</div>
