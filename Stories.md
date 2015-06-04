@@ -44,23 +44,27 @@ Now that we know what we should be ordering, Xolani think it would be great to h
 * Story x1 : Add support for adding products and product categories
 * Story x2 : Add support for adding sales data
 * Story x3 : Add support for adding purchase data
-
+* Story x33 : Be sure that all the add screens have data validation
+* Story x333 : Add Update and Delete support for all the above screens
+ 
 ### Nelisa wants to limit access to data
 
 Now that the system is working so well and users can add products, purchase and sales data to the system, Nelissa is concerned about what users can do in the system. She wants some users to be able to add new data and other only to access the reporting functionality in the system.
 
-* Story x : Users can only use the system once they are logged in.
-* Story y : Add two user roles to the system - one roles for users that can only see sales reports and another role for an admin user that can do everything in the system.
+* Story x1 : Users can only use the system once they are logged in.
+* Story x2 : Add two user roles to the system - one roles for users that can only see sales reports and another role for an admin user that can do everything in the system.
 
 ### Nelisa wants to polish the system
 
-* Make the s....
+* Story x3 : Make the system experience more seemless with less visible screen refreshes... - we need a story here to introduce AJAX without an API - only certain sections of the screen will be reloading via AJAX - the data coming from the serverside is not JSON yet but sections of HTML.
+* Story x33 : Add a category filter to the products list screen with a very smooth transition when searching products.
 
 ### Nelisa wants to share system data
 
 Nelisa went to a networking event and spoke to others running a spaza shop system. They already have systems of their own - but they are interested in using her systems reporting capabilities... Or we can write this from the angle of the suppliers...
 
-* Story x3 : Add the ability for people to access the system without using screens.
+* Story x4 : Add the ability for people to access the system without using screens. Need a story about the API
+* Story x5 : Single Page App support(SPA)... this is all about using client side Handlebars template potentially paving the way to write Mobile Phone App in JS using javascript... one can have SPA apps in the browser as well with the application using data via the API
 
  
 
