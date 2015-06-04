@@ -39,4 +39,34 @@ Now that we know what we should be ordering, Xolani think it would be great to h
 * Story 11: Which supplier is supplying the most popular product.
 * Story 12: Which supplier is supplying the most profitable product.
 
+### Nelisa wants to adds data
+
+* Story x1 : Add support for adding products and product categories
+* Story x2 : Add support for adding sales data
+* Story x3 : Add support for adding purchase data
+
+### Nelisa wants to limit access to data
+
+Now that the system is working so well and users can add products, purchase and sales data to the system, Nelissa is concerned about what users can do in the system. She wants some users to be able to add new data and other only to access the reporting functionality in the system.
+
+* Story x : Users can only use the system once they are logged in.
+* Story y : Add two user roles to the system - one roles for users that can only see sales reports and another role for an admin user that can do everything in the system.
+
+### Nelisa wants to polish the system
+
+* Make the s....
+
+### Nelisa wants to share system data
+
+Nelisa went to a networking event and spoke to others running a spaza shop system. They already have systems of their own - but they are interested in using her systems reporting capabilities... Or we can write this from the angle of the suppliers...
+
+* Story x3 : Add the ability for people to access the system without using screens.
+
+ 
+
+
+
+
+
+
 
