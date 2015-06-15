@@ -47,22 +47,28 @@ Now that we know what we should be ordering, Xolani think it would be great to h
 * Story x33 : Be sure that all the add screens have data validation
 * Story x333 : Add Update and Delete support for all the above screens
  
-### Nelisa wants to limit access to data
+### Nelisa wants to limit access to her shop’s data
 
-Now that the system is working so well and users can add products, purchase and sales data to the system, Nelissa is concerned about what users can do in the system. She wants some users to be able to add new data and other only to access the reporting functionality in the system.
+Now that the system is working so well and Xolani can add products, purchase and sales data to the system, Nelisa is concerned about what different people can do in the system. She wants administrators to be able to add new data and others only to access the reporting functionality in the system.
 
-* Story x1 : Users can only use the system once they are logged in.
-* Story x2 : Add two user roles to the system - one roles for users that can only see sales reports and another role for an admin user that can do everything in the system.
+* Story x1 : Administrators can only use the system once they are logged in.
+* Story x2 : Add two roles to the system - one roles for people who can only see sales reports and another role for an administrator that can do everything in the system.
+* Story x3 : After logging in, the site should remember the person’s credentials.
 
-### Nelisa wants to polish the system
 
-* Story x3 : Make the system experience more seemless with less visible screen refreshes... - we need a story here to introduce AJAX without an API - only certain sections of the screen will be reloading via AJAX - the data coming from the serverside is not JSON yet but sections of HTML.
-* Story x33 : Add a category filter to the products list screen with a very smooth transition when searching products.
+### Nelisa wants to the navigation to be simpler
 
-### Nelisa wants to share system data
+* Story x3 : Nelisa wants to her experience more seamless with less visible screen refreshes.
+* Story x33 : Nelisa wants to view the products list screen with a very smooth transition when searching products.
 
-Nelisa went to a networking event and spoke to others running a spaza shop system. They already have systems of their own - but they are interested in using her systems reporting capabilities... Or we can write this from the angle of the suppliers...
+### Nelisa wants to share a list of products she wants to order from each supplier
 
+Nelisa went to a networking event and spoke to others running a spaza shop system. They already have systems of their own - but they are interested in working together to place their orders in bulk.
+
+* Nelisa wants to create a list of products to order from each supplier
+* Nelisa wants her lists to be visible to other Spaza shop owners in the network
+
+### Stretch goals
 * Story x4 : Add the ability for people to access the system without using screens. Need a story about the API
 * Story x5 : Single Page App support(SPA)... this is all about using client side Handlebars template potentially paving the way to write Mobile Phone App in JS using javascript... one can have SPA apps in the browser as well with the application using data via the API
 
