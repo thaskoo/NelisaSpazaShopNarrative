@@ -1,0 +1,15 @@
+var assert = require("assert");
+
+var productList = require("../productList");
+
+describe("Find data in file", function(){
+
+
+    it('should return a unique list of product in the file synchronously', function(){
+
+        
+        var productLines = productList.linesInFiles('./files/NelisaPurchases.csv');
+        assert.equal(productLines, ["Milk", "Bread", "Imasi" ,"Chakalaka Can","Gold Dish Vegetable Curry Can","Fanta","Coke","Cream Soda","Iwisa Pap","Top Class Soy mince","Shampoo","Soap bar","Bananas","Apples","Mixed Sweets","Heart Chocolate","Rose (plastic)","Valentine Cards"]);
+		
+	});
+});
