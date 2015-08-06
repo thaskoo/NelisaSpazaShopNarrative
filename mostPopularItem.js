@@ -6,15 +6,15 @@ var	findmostPopularProduct = function(file){
 
 	var productsMap = productsSold.soldItems(file);
 
-	var mostPopularProducts = {};
-	var maximum = 0;
+	var mostPopularProducts = {}; // declaring the mostpopular to be in an curly brackets
+	var maximum = 0; //declaring the maximum
 
 	for (var property in productsMap){
 		var value = productsMap[property];
 
 		if(productsMap[property] > maximum){
 			maximum = productsMap[property];
-			mostPopularProducts = {
+			mostPopularProducts = { //using leteral object
 				name: property,
 				amount: maximum
 			};

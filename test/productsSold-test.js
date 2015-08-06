@@ -4,9 +4,6 @@ var productList = require("../productList");
 var products= require("../productsSold");
 
 
-describe("Find data in file", function(){
-
-
     it('should return a unique list of product in the file synchronously', function(){
 
         
@@ -14,7 +11,6 @@ describe("Find data in file", function(){
         assert.deepEqual(productLines, ["Milk 1l","Imasi","Bread","Chakalaka Can","Gold Dish Vegetable Curry Can","Fanta 500ml","Coke 500ml","Cream Soda 500ml","Iwisa Pap 5kg","Top Class Soy Mince","Shampoo 1 litre","Soap Bar","Bananas - loose","Apples - loose","Mixed Sweets 5s","Heart Chocolates","Rose (plastic)","Valentine Cards"]);
 
     });
-});
     it('should return a total number and each item sold', function(){
 
         //var products = new Products("./file/Nelisa Sales History.csv");
@@ -54,3 +50,35 @@ describe("Find data in file", function(){
         //console.log(resultsMap);
         assert.deepEqual(resultsMap,ProductResults);
     });
+
+        it('should categorize all of the products', function(){
+                var category = require("../category");
+           // var categories = require("../category");
+    
+            var map = category.getCategory("./files/Nelisa Sales History.csv");
+
+        var expectedmap = { 
+        Dairy:267, //ileteral object
+        Grain:177,
+        Canned:180,
+        coldDrinks:328,
+        Dried:98,
+        Toiletries:76,
+        Fruits:228,
+        confectionery:192,
+        Gifts:28 
+    }
+
+        //console.log(expectedmap);
+        assert.deepEqual(expectedmap, map);
+});
+        it('should return the most popular category sold', function(){
+            var mostCategoryProduct = require("../mostCategoryProduct");
+
+        var results = mostCategoryProduct.totalCategory("./files/Nelisa Sales History.csv");
+        var expectedMap = { productName: "coldDrinks", amount: 328 };
+
+        assert.deepEqual(results,expectedMap);
+});
+        
+   
