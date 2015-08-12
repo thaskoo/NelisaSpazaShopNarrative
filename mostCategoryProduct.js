@@ -4,14 +4,14 @@ var Findcategory = function (file){
 
 	
 	var categoryMap = category.getCategory(file);
-		var max = 0;
-		for(var prop in categoryMap){
-		var value = categoryMap[prop];
-		if(categoryMap[prop] > max){
-		max =categoryMap[prop];
-		mostCategoryProduct ={
-			productName: prop,
-			amount:max
+			var max = 0; //declaring the maximum
+	for(var prop in categoryMap){
+			var value = categoryMap[prop];
+	if(categoryMap[prop] > max){
+			max =categoryMap[prop];
+				mostCategoryProduct ={
+				productName: prop,
+				amount:max
 		};
 	};
 };

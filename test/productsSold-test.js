@@ -82,3 +82,21 @@ var products= require("../productsSold");
 });
         
    
+ it('should return the least popular product sold', function(){
+
+        var leastPopularProduct = require("../leastPopularProduct");
+        var ProductResults = leastPopularProduct.productSold("./files/Nelisa Sales History.csv");
+        var resultsMap = { name: 'Rose (plastic)', amount: 14 };
+        //console.log(resultsMap);
+        assert.deepEqual(resultsMap,ProductResults);
+    });
+
+
+  it('should return the least popular category sold', function(){
+        var leastPopularCategory = require("../leastPopularCategory");
+
+        var results = leastPopularCategory.totalCategory("./files/Nelisa Sales History.csv");
+        var expectedMap = { name: 'Gifts', amount: 28};
+
+        assert.deepEqual(results,expectedMap);
+});
